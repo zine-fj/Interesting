@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>四叶草</title>
+  <style>
+    html,
+    body {
+      margin: 0px;
+      padding: 0px;
+      background-color: #020;
+      font-family: sans-serif;
+      font-size: 16px;
+      overflow: hidden;
+    }
+
+    #logo {
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+    }
+
+    p {
+      color: #020;
+    }
+
+    canvas {
+      background-color: #020;
+    }
+
+    @font-face {
+      font-family: 'Irish Grover';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Irish Grover Regular'), local('IrishGrover-Regular'), url(https://fonts.gstatic.com/s/irishgrover/v10/buExpoi6YtLz2QW7LA4flVgv__RP.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="testCanvas" width="550" height="500"></canvas>
+  <script src='./easeljs.min.js'></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
